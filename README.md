@@ -2,6 +2,9 @@
 
 Monitor your PiVPN connections with a simple static HTML page
 
+![PiVPN-Simple-Status-Example](https://user-images.githubusercontent.com/80802641/118336219-3b44bf80-b4df-11eb-9a4d-94c0aa9efdff.jpg)
+
+
 ### Overview
 
 This script allows you to easily monitor your PiVPN connections by visiting a static web page, which is easier than SSHing into a machine to view clients.<br />
