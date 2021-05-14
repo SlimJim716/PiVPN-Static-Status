@@ -18,7 +18,7 @@ This script allows you to easily monitor your PiVPN connections by visiting a st
 
 ### Installing
 
-1. Move to your directory of choice, clone to repo, and cd into it
+1. Move to your directory of choice, clone the repo, and cd into it
 
 ```
 git clone https://github.com/SlimJim716/PiVPN-Static-Status
