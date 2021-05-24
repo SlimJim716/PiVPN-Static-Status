@@ -38,7 +38,7 @@ fi
 
 
 #begin doc
-printf "<!DOCTYPE html>\n <title>VPN Status</title>\n"
+printf "<!DOCTYPE html>\n <title>PiVPN Status</title>\n"
 
 
 #check for figlet installation - for a neat logo :)
