@@ -18,7 +18,7 @@ This script allows you to easily monitor your PiVPN connections by visiting a st
 
 ### Installing
 
-1. Move to your directory of choice, clone the repo, and cd into it
+1. Move to your directory of choice, clone the repo, and cd into it or download the `generate` file.
 
 ```
 git clone https://github.com/SlimJim716/PiVPN-Static-Status
@@ -61,6 +61,11 @@ crontab -e
 
 ```
 * * * * * /path/to/script/generate > /path/to/output/index.html
+```
+6a. Optional. Since this is most likely deployed on a Raspberry Pi, instead of writing to disk, we can write to a tmpfs partition instead to minimize disk usage. We can change the line above to this.
+
+```
+* * * * * mkdir -p /dev/shm/pivpnss && /path/to/script/generate > /dev/shm/pivpnss/index.html
 ```
 
 7. Serve the page with your favorite web server. This step is up to you. Below is a basic config example for NGINX using a subdomain for the page.
